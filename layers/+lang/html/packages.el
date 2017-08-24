@@ -26,7 +26,7 @@
         less-css-mode
         pug-mode
         sass-mode
-        scss-mode
+        ;; (scss-mode :location (recipe :fetcher github :repo "robbert-vdh/scss-mode"))
         slim-mode
         smartparens
         tagedit

@@ -14,7 +14,7 @@
   - [[#rtags-configuration][RTags configuration]]
   - [[#enable-google-set-c-style][Enable google-set-c-style]]
 - [[#key-bindings][Key Bindings]]
-  - [[#debugging-realgud][Debugging (realgud)]]
+  - [[#debugger-realgud][Debugger (realgud)]]
   - [[#formatting-clang-format][Formatting (clang-format)]]
   - [[#rtags][RTags]]
 
@@ -146,7 +146,7 @@ set that up like this:
 
 *Note:*  [[https://github.com/tuhdo/semantic-refactor][semantic-refactor]]  is only available for Emacs 24.4+.
 
-** Debugging (realgud)
+** Debugger (realgud)
 
  | Key Binding | Description     |
  |-------------+-----------------|

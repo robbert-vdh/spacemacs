@@ -19,6 +19,7 @@
     ggtags
     exec-path-from-shell
     helm-gtags
+    realgud
     rust-mode
     toml-mode
     ))
@@ -65,6 +66,9 @@
 
 (defun rust/post-init-helm-gtags ()
   (spacemacs/helm-gtags-define-keys-for-mode 'rust-mode))
+
+(defun rust/post-init-realgud ()
+  (spacemacs/add-realgud-debugger 'rust-mode "gdb"))
 
 (defun rust/init-rust-mode ()
   (use-package rust-mode

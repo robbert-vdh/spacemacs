@@ -1,0 +1,30 @@
+#+TITLE: ghosttext layer
+
+[[img/ghosttext.png]]
+
+* Table of Contents                                       :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+This package adds support for Atomic Chrome and GhostWriter.
+** Features:
+  - Edit textfields in Emacs.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =ghosttext= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+By default this only works when running Emacs in /daemon mode/ to prevent
+conflicts. Set =ghostscript-run-always= to =t= to always run the server.
+
+* Key bindings
+
+| Keybinding | Command              |
+|------------+----------------------|
+| ~SPC m ,~  | Save and exit        |
+| ~SPC m c~  | Save and exit        |
+| ~SPC m s~  | Sync buffer contents |
